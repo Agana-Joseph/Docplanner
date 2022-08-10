@@ -1,0 +1,265 @@
+body{
+    font-family: Roboto,Arial,sans-serif;
+    font-weight: 400;
+    color: #747474;
+    -webkit-font-smoothing: antialiased;
+}
+
+.logo{
+    width: 300px;
+}
+
+.main-header{
+    position: fixed;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    border: 0px; 
+    background-color: white;
+    display: flex;
+   margin-right: 30px;
+   justify-content: space-around;
+}
+
+.nav-bar{
+    border: 0px; 
+    display: flex;
+   text-align: right;
+  font-family: Arial;
+  font-size: 0.9rem;
+}
+
+.about-nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 4px;
+  
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+.nav-bar > li > div > ul > li{
+    display: none;
+    background-color: white;
+    
+}
+.nav-bar > li:hover ul li {
+    display: block;
+}
+.dropdown:hover {
+    display: block;
+}
+ul li:hover {
+    background-color:  aquamarine;
+    display: none;
+}
+
+.dropdown-content{
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.text-center{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 150px;
+    
+}
+
+.nav-items{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    color: #00b39b;
+}
+
+.padded-section{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.logo-two{
+    text-align: center;
+    width: 50px;
+   
+}
+
+h4{
+    line-height: 1.6rem;
+    letter-spacing: 0.8px;
+    color: #00b39b;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: lighter;
+
+}
+
+.page-content{
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.6rem;
+   margin: 5rem 9rem 5rem 9rem;
+}
+
+.card-section{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-left: 11rem;
+    padding-right: 11rem;
+    padding-top: 40px;
+    gap: 20px;
+}
+
+.card-one{
+    font-weight: lighter;
+    width: 20rem;
+    background-color: turquoise;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    padding-left: 5rem;
+}
+
+.card-two{
+    font-weight: lighter;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    width: 20rem;
+    background-color: #1662c6
+}
+
+.card-three{
+    font-weight: lighter;
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 10px;
+    width: 20rem;
+    background-color: #1b2734;
+    padding-right: 5rem;
+}
+
+.partners-section{
+   display: flex;
+   padding-top: 34px;
+   text-align: center;
+   
+}
+
+.partners-logos{
+  font-weight: 100px;
+}
+
+.partners-text{
+   color: aquamarine;
+   padding-right: 50px;
+   font-size: 20px;
+  font-family: Roboto, Arial;
+}
+.partners-logo{
+    width: 0px;
+    display: flex;
+    gap: 30px;
+}
+
+.partners-logo-two{
+    width: 0px;
+    display: flex;
+    padding-top: 20px;
+    gap: 30px;
+}
+
+.stats-section{
+    background-color: #e5faf8;
+    padding-right: 130px;
+    padding-left: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+
+.stats-title{
+    color: turquoise;
+    text-align: center;
+   
+}
+
+.sub-title{
+    font-size: 0.9rem;
+}
+
+.stats-card{
+    display: flex;
+    gap: 20px;
+}
+
+.stats-card-one {
+    margin-top: 20px;
+    width: 12rem;
+}
+
+.stats-card-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 20px 15px;
+    margin-bottom: 10px;
+    height: 260px;
+}
+
+.stat-card-title{
+    color: turquoise;
+    font-size: 1.2rem;
+   font-weight: lighter;
+}
+
+.stats-card-subtitle {
+    font-size: 0.6rem;
+}
+
+.label{
+    text-align: center;
+    margin-bottom: 70px;
+    margin-top: 40px;
+}
+
+.label-section{
+   padding-left: 12rem;
+}
+
+.label-logo-one{
+    display: flex;
+    gap: 20px;
+}
+
+.label-logo-two{
+    display: flex;
+    gap: 20px;
+}
+
+.section-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 90px;
+    padding-right: 20px;
+    font-size: 0.8rem;
+    
+}
